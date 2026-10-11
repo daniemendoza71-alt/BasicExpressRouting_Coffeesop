@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Coffee Shop - Home</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+</head>
+
+<body>
+
+<header>
+
+    <h1>Coffee Shop</h1>
+
+    <nav>
+
+        <a
+            href="#"
+            class="navicon"
+            onclick="toggleMenu()"
+        >
+            ☰
+        </a>
+
+        <ul
+            class="menu"
+            id="mainMenu"
+        >
+            <li>
+                <a href="/">Home</a>
+            </li>
+
+            <li>
+                <a href="/menu">Menu</a>
+            </li>
+
+            <li>
+                <a href="/about">About</a>
+            </li>
+
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h2>Fresh Coffee, Better Days</h2>
+
+    <p>
+        Enjoy freshly brewed coffee,
+        refreshing drinks and delicious food
+        served in a relaxing atmosphere.
+    </p>
+
+    <a
+        href="/menu"
+        class="order-link"
+    >
+        View Full Menu
+    </a>
+
+</section>
+
+<section class="page">
+
+    <h1>Our Favorites</h1>
+
+    <p>
+        Discover our coffee, drinks and freshly prepared food.
+    </p>
+
+</section>
+
+<section class="products">
+
+    <div class="menu-item">
+
+        <img
+            src="/images/cappuccino.jpg"
+            alt="Cappuccino"
+        >
+
+        <h3>Cappuccino</h3>
+
+        <p class="description">
+            Rich espresso topped with steamed milk and creamy foam.
+        </p>
+
+        <p class="price">₱140</p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/latte.jpg"
+            alt="Cafe Latte"
+        >
+
+        <h3>Cafe Latte</h3>
+
+        <p class="description">
+            Smooth espresso combined with warm and creamy milk.
+        </p>
+
+        <p class="price">₱145</p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/americano.jpg"
+            alt="Americano"
+        >
+
+        <h3>Americano</h3>
+
+        <p class="description">
+            Bold espresso mixed with hot water for a smooth cup.
+        </p>
+
+        <p class="price">₱120</p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/matcha.jpg"
+            alt="Matcha Latte"
+        >
+
+        <h3>Matcha Latte</h3>
+
+        <p class="description">
+            Creamy milk blended with smooth and refreshing matcha.
+        </p>
+
+        <p class="price">₱150</p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/croissant.jpg"
+            alt="Butter Croissant"
+        >
+
+        <h3>Butter Croissant</h3>
+
+        <p class="description">
+            A light, flaky and buttery pastry perfect with coffee.
+        </p>
+
+        <p class="price">₱70</p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/sandwich.jpg"
+            alt="Breakfast Sandwich"
+        >
+
+        <h3>Breakfast Sandwich</h3>
+
+        <p class="description">
+            A freshly prepared sandwich for a satisfying meal.
+        </p>
+
+        <p class="price">₱145</p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        &copy; Cortez | 2026 Coffee Shop
+    </p>
+
+</footer>
+
+<script>
+    function toggleMenu() {
+        document
+            .getElementById("mainMenu")
+            .classList.toggle("active");
+    }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Coffee Shop - About</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+</head>
+
+<body>
+
+<header>
+
+    <h1>Coffee Shop</h1>
+
+    <nav>
+
+        <a
+            href="#"
+            class="navicon"
+            onclick="toggleMenu()"
+        >
+            ☰
+        </a>
+
+        <ul
+            class="menu"
+            id="mainMenu"
+        >
+            <li>
+                <a href="/">Home</a>
+            </li>
+
+            <li>
+                <a href="/menu">Menu</a>
+            </li>
+
+            <li>
+                <a href="/about">About</a>
+            </li>
+
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="about-section">
+
+    <h1>Who We Are</h1>
+
+    <p>
+        Our Coffee Shop is a place where people
+        can relax, study, talk with friends, and enjoy
+        freshly prepared drinks.
+    </p>
+
+    <p>
+        Our motto is to make our customer smile
+        and make a good cup of coffee 
+        that can make every day better.
+    </p>
+
+</section>
+
+<section class="about-products">
+
+    <div class="menu-item">
+
+        <img
+            src="/images/latte.jpg"
+            alt="Freshly Prepared"
+        >
+
+        <h3>Freshly Prepared</h3>
+
+        <p class="description">
+            Every drink is prepared fresh
+            when you order.
+        </p>
+
+    </div>
+
+    <div class="menu-item">
+
+        <img
+            src="/images/cappuccino.jpg"
+            alt="Comfortable Place"
+        >
+
+        <h3>Comfortable Place</h3>
+
+        <p class="description">
+            Enjoy your coffee in a comfortable
+            and relaxing environment.
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        &copy; Cortez | 2026 Coffee Shop
+    </p>
+
+</footer>
+
+<script>
+    function toggleMenu() {
+        document
+            .getElementById("mainMenu")
+            .classList.toggle("active");
+    }
+</script>
+
+</body>
+
+</html>
